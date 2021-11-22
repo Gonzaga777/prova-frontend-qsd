@@ -67,10 +67,13 @@
   input {
     outline: none;
   }
+  p {
+      text-align: center;
+  }
    
   /*estilo dos input,  menos o checkbox */
   input:not([type="checkbox"]){
-    width: 95%;
+    width: 50%;
     margin-top: 4px;
     padding: 10px;    
     border: 1px solid #b2b2b2;
@@ -87,7 +90,7 @@
    
   /*estilo do botão submit */
   input[type="submit"]{
-    width: 100%!important;
+    width: 53%!important;
     cursor: pointer;  
     background: red;
     padding: 8px 5px;
@@ -102,7 +105,21 @@
    
     transition: all 0.2s linear;
   }
-   
+.principal {
+    display: flex;
+}
+.cadastro {
+    display:flex;
+    width: 60%;
+    flex: 1 auto;
+}
+#cadastro2 {
+    display:flex;
+    width: 40%;
+    border: 2px solid;
+    width: 605px;
+    text-align: center;
+}
   /*estilo do botão submit no hover */
   input[type="submit"]:hover{
     background: red;
@@ -113,7 +130,7 @@
     color: #7f7c7c;
     left: 0px;
     height: 20px;
-    width: 440px;
+    width: 100%;
     padding: 17px 30px 20px 30px;
     font-size: 16px;
     text-align: right;
