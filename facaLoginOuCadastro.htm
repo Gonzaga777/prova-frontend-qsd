@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../prova-frontend-qsd/css/style.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+
+          <a href="https://pt-br.facebook.com/"> <img src="../prova-frontend-qsd/images/facebook.png" width="25px" height="25px"margin-left="170px"alt="facebook"></a>
+          <a href="https://twitter.com/login?lang=pt"><img src="../prova-frontend-qsd/images/twitter.png" width="25px" height="25px"margin-left="170px"alt="twitter"></a>
+          <a href="https://www.linkedin.com/feed/"><img src="../prova-frontend-qsd/images/linkedin-logo.png" width="25px" height="25px" margin-left="170px"alt="Linkedin"></a>
+           
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" class="form-control" id="email" required>
+            <span class="msg-email  msg-error invalid-feedback " style="display: none;">campo inválido</span>
+            <span class="msg-email ok msg-success valid-feedback" style="display: none;">ok</span>
+        </div> 
+
+        <div class="mb-3">
+            <label for="password" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="email" required>
+            <span class="msg-email  msg-error invalid-feedback " style="display: none;">campo inválido</span>
+            <span class="msg-email ok msg-success valid-feedback" style="display: none;">ok</span>
+        </div>
+           
+          <p> 
+            <input type="submit" value="Entrar" /> 
+          </p>
+
+           
+          <p class="link">
+            Ou Se Não Tem Conta
+            <a href="./prova-frontend-qsd/cadastroFormulario.html">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+ 
+      
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
